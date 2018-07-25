@@ -16,7 +16,7 @@ int main(void)
         int c = 1;
         for (register int j = 1; j <= i; j++)
         {
-             printf("%7d ", c);
+             printf("%-7d ", c);
              c = c * (i - j) / j;
         }
         printf("\n");

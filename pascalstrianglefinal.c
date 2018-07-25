@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    puts("Enter the no. of lines you want to display : ");
+    printf("Enter the no. of lines you want to display : ");
     int len1,len;scanf("%d",&len1);
     len = len1+1;
     int b=4*len-4;
